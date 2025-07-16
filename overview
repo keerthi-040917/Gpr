@@ -1,0 +1,3 @@
+The hardware to generate the transmitting signal consisted of a signal generator AD9833 which was connected to ARDUINO UNO and programmed to generate a chirp signal. The idea is to transmit a signal to a certain level below the ground and capture the reflected wave,process and study the difference in frequency of transmitted and received wave.
+The chirp signal was initially programmed to view in serial plot of Arduino IDE.
+Later , we used filtering to enhance the generated signal and arrived at a conclusion in using a class AB amplifier.
